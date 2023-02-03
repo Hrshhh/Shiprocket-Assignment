@@ -1,0 +1,49 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.web-name{
+    font-weight: 400;
+    font-size: 1.8rem;
+    cursor: pointer;
+    margin-left: 2rem;
+    text-decoration: none;
+    font-family: 'Itim', cursive;
+    color: rgb(88, 11, 118);
+    text-shadow: 2px 2px 4px #69b1db;
+}
+
+.nav-item{
+    display: flex;
+    gap: 3.4rem;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: rgb(124, 59, 152);
+} 
+
+.nav-item a:hover{
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: rgb(69, 19, 90);
+}
+
+.contact-btn {
+    border-radius: 20px;
+    margin-right: 2rem;
+    padding: 4px 15px;
+    font-size: 1.1rem;
+    background-color: rgb(124, 59, 152);
+    color: white;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    cursor: pointer;
+    background-color: rgb(69, 19, 90);
+    transform: scale(1.1);
+}

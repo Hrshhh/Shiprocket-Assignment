@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(48, 13, 63);
+    padding: 1rem 0;
+    color: #fff; 
+    bottom: 0;
+    height: 4rem;
+}
+
+.foot {
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+}
